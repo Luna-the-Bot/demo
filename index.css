@@ -7,13 +7,13 @@
 .image {
   height: 150px;
   float: right;
-  margin-left: 50px;
-  margin-right: 950px;
+  /*margin-left: 50px;*/
+  margin-right: 550px;
 }
 
 .text {
-  margin-top: 120px;
-  margin-left: 10%;
+  margin-top: 0px;
+  margin-left: 25%;
 }
 #text {
   color: #ed5565;
@@ -68,3 +68,56 @@ span.name {
 .text a:hover::before {
   height: 100%;
 }
+
+
+.main {
+  margin-top: 150px;
+}
+/* iframe */
+#botframe{
+  /*margin: 100px;*/
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+@media (min-width: 992px) {
+
+  .col-lg-4 {
+    float: center;
+    width: 33.33%;
+    margin-left: 380px;
+  }
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+  .col-md-6,  .col-md-12 {
+      float: center;
+  }
+
+  .col-md-6 {
+    width: 50%;
+    margin-left: 160px;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 600px){
+      .col-sm-12 {
+    width: 100%;
+    margin-left: 100px;
+  }
+@media (max-width: 599px){
+  .col-xsm-12 {
+    margin-left: 70px;
+  }
+}
+
+}
+
+
